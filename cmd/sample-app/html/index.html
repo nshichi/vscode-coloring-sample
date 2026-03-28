@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>vscode coloring sample</title>
+
+<style>
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    padding: 16px;
+    border: 1px solid #ccc;
+}
+#title {
+    color: blue;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Hello World</h1>
+        <p data-id="123">Sample Text</p>
+        <a href="https://example.com" target="_blank">link</a>
+        <input type="text" value="input value" />
+    </div>
+
+<script>
+'use strict';
+
+const VERSION = "1.0.0";
+
+class User {
+    consturctor(name) {
+        this.name = name;
+    }
+
+    greet() {
+        return `Hello, ${this.name}`
+    }
+}
+
+function add(a, b) {
+    return a+b;
+}
+
+const users = [
+    new User("Alice"),
+    new User("Bob")
+];
+
+users.forEach((user, index) => {
+    console.log(index, user.greet());
+})
+
+async function fetchData() {
+    try {
+        const response = await fetch("https://api.example.com/data");
+        const data = await response.join();
+    } catch (error) {
+        console.error("Error: ", error)
+    }
+}
+
+const obj = {
+    key: "value",
+    number: 123,
+    nested: {
+        flag: true
+    }
+};
+
+const result = /[a-z]+/.test(str);
+
+</script>
+</body>
+</html>
