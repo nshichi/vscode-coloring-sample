@@ -1,0 +1,61 @@
+{
+    "editor.tokenColorCustomizations": {
+        "[VS Code Dark]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "punctuation",  // 句読点、括弧
+                        "meta.brace",   // javascript用 括弧
+                        "punctuation.definition.template-expression.begin", // ` ${ ... } `
+                        "punctuation.definition.template-expression.end",
+                        // "punctuation.definition.tag",   // HTML tag区切り
+                    ],
+                    "settings": {
+                        "foreground": "#777777",
+                    }
+                },
+
+                {
+                    "scope": "punctuation.definition.tag",   // HTML tag区切り
+                    "settings": {
+                        "foreground": "#555555",
+                        // "foreground":"#2a4d2d", // 7EE787 の 1/3
+                    }
+                },
+
+                {
+                    "scope": "punctuation.definition.comment",  // コメント区切り
+                    "settings": {
+                        // "foreground": "#454a4f", // コメント本文 (#8B949E) と同じ色相で暗く
+                        "foreground": "#2e3134", // 8B949E の1/3
+                    }
+                },
+
+                {
+                    "scope": [
+                        "keyword.operator", // 演算子
+                        // "storage.type.function.arrow.js",    // <= アロー関数 どうする？
+                    ],
+                    "settings": {
+                        "foreground": "#ffcccc",    // うっすらピンクで目立つ
+                    }
+                },
+
+                {
+                    "scope": "punctuation.definition.string",    // 文字列の引用符
+                    "settings": {
+                        "foreground": "#526b7f", // 文字列本文 (#A5D6FF) と同じ色相で暗く
+                    }
+                },
+
+                {
+                    "scope": "punctuation.support.type.property-name",   // json項目名の引用符
+                    "settings": {
+                        "foreground": "#3e7343", // json項目名 (#7EE787) 同じ色相で暗く
+                    }
+                },
+            ]
+        },
+    },
+
+}
