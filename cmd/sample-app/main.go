@@ -1,27 +1,22 @@
 package main
 
-/* VSCode の色分け修正サンプルコード */
-
+/* VSCode の色分けサンプルコード */
 import (
-	"fmt"
 	"net/http"
 
 	"github.com/labstack/echo/v4"
 )
 
+const N = 1_000
+
 func main() {
 	e := echo.New()
-
-	e.Static("/", "./html")
-
-	// e.File("/", "./html/index.html")
-
-	fmt.Printf("hello\n")
+	e.Static("/", "./html") // e.File("/", "./html/index.html")
 	e.Start(":3000")
 }
 
 func GET_hello(c echo.Context) error {
-	return c.String(http.StatusOK, "hello")
+	return c.String(http.StatusOK, "hello\n")
 }
 
 type CNo string
@@ -34,15 +29,8 @@ type BillRec struct {
 }
 
 func sample(bills []BillRec) {
-	const N = 1_000
-
-	cnoset := make(map[CNo]struct{}, 0)
 	clistByGKey := make(map[GKey][]CNo)
-
 	for _, b := range bills {
-		if _, ok := cnoset[b.CNo]; ok {
-
-			clistByGKey[b.GKey] = append(clistByGKey[b.GKey], b.CNo)
-		}
+		clistByGKey[b.GKey] = append(clistByGKey[b.GKey], b.CNo)
 	}
 }
