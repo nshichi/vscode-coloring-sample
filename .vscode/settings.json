@@ -1,17 +1,13 @@
 {
     "workbench.colorCustomizations": {
-        "[VS Code Dark]": {
-    		// "editor.background": "#121315",
-    	// 	// "editor.background": "#444",
-            "editor.lineHighlightBackground": "#0b0c0d",        // 現在行 背景 (#121314) よりかすかに暗く
-        //     // "editor.lineHighlightBorder": "#000000",
+        "[VS Code DarkX]": {
+            "editor.lineHighlightBackground": "#0b0c0d",        // 現在行 背景 (#121314) よりかすかに暗
 
             "editorGutter.background": "#1e1e1e",               // 行番号はコードの背景と区別したい
             "editorLineNumber.foreground": "#668888",           // 行番号はコードとは明らかに違う色にしたい
             "editorLineNumber.activeForeground": "#88cccc",
 
             "editorBracketMatch.background": "#0000ff",         // 括弧ペア 暗闇にうっすら青く
-            // "editorBracketMatch.border": "#0000ff",
 
             "editorIndentGuide.activeBackground1": "#000099",   // インデントガイド アクティブ時 暗闇にうっすら青く
             "editorIndentGuide.background1": "#040420",         // インデントガイド 非アクティブ
@@ -20,11 +16,15 @@
             "editor.findMatchBorder": "#ff000055",              // アクティブとハイライトは一目で区別できるようハッキリ色相を変えたかった
             "editor.findMatchHighlightBackground": "#00ffff19", // 検索一致（ハイライト）うっすら緑 枠付き 透過付き
             "editor.findMatchHighlightBorder": "#00ffff55",
+
+            "input.background": "#0c0c0c",                      // 検索 背景 くっきりと黒
+            "inputOption.activeBackground": "#2a0000",          // 検索 オプション チェックされると赤く
+            "inputOption.activeBorder": "#550000",
         },
     },
 
     "editor.tokenColorCustomizations": {
-        "[VS Code Dark]": {
+        "[VS Code DarkX]": {
             "textMateRules": [
                 {
                     "scope": [
@@ -32,7 +32,6 @@
                         "meta.brace",   // javascript用 括弧
                         "punctuation.definition.template-expression.begin", // ` ${ ... } `
                         "punctuation.definition.template-expression.end",
-                        // "punctuation.definition.tag",   // HTML tag区切り
                     ],
                     "settings": {
                         "foreground": "#777777",
@@ -61,7 +60,7 @@
                         // "storage.type.function.arrow.js",    // <= アロー関数 どうする？
                     ],
                     "settings": {
-                        "foreground": "#ffcccc",    // うっすらピンクで目立つ
+                        "foreground": "#ffcccc",    // うっすらピンクで目立つよう、特に単項演算子!
                     }
                 },
 
