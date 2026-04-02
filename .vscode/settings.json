@@ -1,16 +1,19 @@
 {
+    "workbench.colorTheme": "Dark 2026",
+
     "workbench.colorCustomizations": {
-        "[VS Code DarkX]": {
+        "[Dark 2026]": {
             "editor.lineHighlightBackground": "#0b0c0d",        // 現在行 背景 (#121314) よりかすかに暗
 
             "editorGutter.background": "#1e1e1e",               // 行番号はコードの背景と区別したい
             "editorLineNumber.foreground": "#668888",           // 行番号はコードとは明らかに違う色にしたい
             "editorLineNumber.activeForeground": "#88cccc",
 
-            "editorBracketMatch.background": "#0000ff",         // 括弧ペア 暗闇にうっすら青く
+            "editorBracketMatch.background": "#0000aa",         // 括弧ペア 暗闇にうっすら青く
+            "editorBracketMatch.border": "#0000ff",         // 括弧ペア 暗闇にうっすら青く
 
             "editorIndentGuide.activeBackground1": "#000099",   // インデントガイド アクティブ時 暗闇にうっすら青く
-            "editorIndentGuide.background1": "#040420",         // インデントガイド 非アクティブ
+            "editorIndentGuide.background1": "#040419",         // インデントガイド 非アクティブ
 
             "editor.findMatchBackground": "#20000088",          // 検索一致（アクティブ）うっすら赤く 枠付き 透過つき
             "editor.findMatchBorder": "#ff000055",              // アクティブとハイライトは一目で区別できるようハッキリ色相を変えたかった
@@ -24,7 +27,7 @@
     },
 
     "editor.tokenColorCustomizations": {
-        "[VS Code DarkX]": {
+        "[Dark 2026]": {
             "textMateRules": [
                 {
                     "scope": [
