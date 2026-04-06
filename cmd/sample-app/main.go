@@ -11,7 +11,7 @@ const N = 1_000
 
 func main() {
 	e := echo.New()
-	e.Static("/", "./html") // e.File("/", "./html/index.html")
+	e.Static("/", "./web") // e.File("/", "./web/index.html")
 	e.Start(":3000")
 }
 
