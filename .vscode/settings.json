@@ -9,8 +9,8 @@
             "editorLineNumber.foreground": "#668888",           // 行番号はコードとは明らかに違う色にしたい
             "editorLineNumber.activeForeground": "#88cccc",
 
-            "editorBracketMatch.background": "#0000aa",         // 括弧ペア 暗闇にうっすら青く
-            "editorBracketMatch.border": "#0000ff",             // 括弧ペア 暗闇にうっすら青く
+            "editorBracketMatch.background": "#000077",         // 括弧ペア 暗闇にうっすら青く
+            "editorBracketMatch.border": "#0000dd",             // 括弧ペア 暗闇にうっすら青く
 
             "editorIndentGuide.activeBackground1": "#000099",   // インデントガイド アクティブ時 暗闇にうっすら青く
             "editorIndentGuide.background1": "#040419",         // インデントガイド 非アクティブ
@@ -52,8 +52,8 @@
                 {
                     "scope": "punctuation.definition.comment",  // コメント区切り
                     "settings": {
-                        // "foreground": "#454a4f", // コメント本文 (#8B949E) と同じ色相で暗く
-                        "foreground": "#2e3134", // 8B949E の1/3
+                        "foreground": "#454a4f", // コメント本文 (#8B949E) と同じ色相で暗く
+                        // "foreground": "#2e3134", // 8B949E の1/3
                     }
                 },
 
