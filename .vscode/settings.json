@@ -10,7 +10,7 @@
             "editorLineNumber.activeForeground": "#88cccc",
 
             "editorBracketMatch.background": "#0000aa",         // 括弧ペア 暗闇にうっすら青く
-            "editorBracketMatch.border": "#0000ff",         // 括弧ペア 暗闇にうっすら青く
+            "editorBracketMatch.border": "#0000ff",             // 括弧ペア 暗闇にうっすら青く
 
             "editorIndentGuide.activeBackground1": "#000099",   // インデントガイド アクティブ時 暗闇にうっすら青く
             "editorIndentGuide.background1": "#040419",         // インデントガイド 非アクティブ
@@ -37,14 +37,14 @@
                         "punctuation.definition.template-expression.end",
                     ],
                     "settings": {
-                        "foreground": "#777777",
+                        "foreground": "#666666",
                     }
                 },
 
                 {
                     "scope": "punctuation.definition.tag",   // HTML tag区切り
                     "settings": {
-                        "foreground": "#555555",
+                        "foreground": "#444444",
                         // "foreground":"#2a4d2d", // 7EE787 の 1/3
                     }
                 },
@@ -63,7 +63,7 @@
                         // "storage.type.function.arrow.js",    // <= アロー関数 どうする？
                     ],
                     "settings": {
-                        "foreground": "#ffcccc",    // うっすらピンクで目立つよう、特に単項演算子!
+                        "foreground": "#ffdddd",    // うっすらピンクで目立つよう、特に単項演算子!
                     }
                 },
 
