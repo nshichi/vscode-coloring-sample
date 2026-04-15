@@ -24,6 +24,31 @@
             "inputOption.activeBackground": "#2a0000",          // 検索 オプション チェックされると赤く
             "inputOption.activeBorder": "#550000",
         },
+        "[Light 2026]": {
+            "editor.background": "#fafafa",
+            "editor.lineHighlightBackground": "#ffffffff",//"#eaeaea40",
+
+            "editorGutter.background": "#fafafd",               // 行番号はコードの背景と区別したい
+    		"editorLineNumber.activeForeground": "#6666aa",
+	    	"editorLineNumber.foreground": "#aaaaaa",
+
+            // "editorBracketMatch.background": "#000077",         // 括弧ペア 暗闇にうっすら青く
+            // "editorBracketMatch.border": "#0000dd",             // 括弧ペア 暗闇にうっすら青く
+
+            // "editorIndentGuide.activeBackground1": "#000099",   // インデントガイド アクティブ時 暗闇にうっすら青く
+            // "editorIndentGuide.background1": "#040419",         // インデントガイド 非アクティブ
+    		"editorIndentGuide.activeBackground1": "#ddddff",
+    		"editorIndentGuide.background1": "#ffffff",
+
+            // "editor.findMatchBackground": "#20000088",          // 検索一致（アクティブ）うっすら赤く 枠付き 透過つき
+            // "editor.findMatchBorder": "#ff000055",              // アクティブとハイライトは一目で区別できるようハッキリ色相を変えたかった
+            // "editor.findMatchHighlightBackground": "#00ffff19", // 検索一致（ハイライト）うっすら緑 枠付き 透過付き
+            // "editor.findMatchHighlightBorder": "#00ffff55",
+
+            // "input.background": "#0c0c0c",                      // 検索 背景 くっきりと黒
+            // "inputOption.activeBackground": "#2a0000",          // 検索 オプション チェックされると赤く
+            // "inputOption.activeBorder": "#550000",
+        }
     },
 
     "editor.tokenColorCustomizations": {
